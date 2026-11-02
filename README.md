@@ -11,7 +11,7 @@ Available for NeoForge, Forge and Fabric.
 ## Features
 
 - **No cooldown for parents.** After breeding, both parents can be fed their breeding food again straight away instead of waiting five minutes.
-- **Grown-up babies breed at once.** A baby animal that grows up, naturally or with food, can be bred as soon as it is an adult. Any leftover waiting time stored on the animal is discarded.
+- **Grown-up babies breed at once.** A baby animal that you fed to speed up its growth can be bred as soon as it is an adult, without the extra wait vanilla can add for babies grown up with food.
 - **Every animal.** Works for all animals that breed the vanilla way, including foxes, turtles, frogs, sniffers, armadillos, horses, llamas, camels and bees.
 - **Villagers stay vanilla.** Villager breeding and its cooldown are not touched.
 
@@ -22,7 +22,7 @@ There is no config file.
 What changes:
 
 - When two animals breed, vanilla gives both parents a five-minute cooldown before they can fall in love again. With the mod, they can be fed again right after breeding.
-- When a baby animal grows up, naturally or with food, it can be bred right away. Any leftover waiting time stored on the animal is discarded.
+- When you feed a baby animal to speed up its growth, vanilla can make the new adult wait as long as the growing time the food skipped before it can breed, for example a lamb fed wheat that finishes growing by eating grass. With the mod, it can be bred right away. A baby that grows up naturally can be bred right away, as in vanilla.
 
 What stays vanilla:
 
@@ -37,11 +37,11 @@ What stays vanilla:
 
 | | NeoForge | Forge | Fabric |
 |---|---|---|---|
-| Minecraft | 1.21.1 | 1.21.1 | 1.21 or 1.21.1 |
-| Loader | NeoForge 21.1.1 or newer | Forge 52.0.0 or newer | Fabric Loader 0.15.10 or newer |
-| Jar | `instantbreeding-neoforge-1.21.1-<version>.jar` | `instantbreeding-forge-1.21.1-<version>.jar` | `instantbreeding-fabric-1.21-1.21.1-<version>.jar` |
+| Minecraft | 1.21.11 | 1.21.11 | 1.21.11 |
+| Loader | NeoForge 21.11.42 or newer | Forge 61.0.1 or newer | Fabric Loader 0.17.3 or newer |
+| Jar | `instantbreeding-neoforge-1.21.11-<version>.jar` | `instantbreeding-forge-1.21.11-<version>.jar` | `instantbreeding-fabric-1.21.11-<version>.jar` |
 
-On Minecraft 1.21.1, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your server's loader.
+On Minecraft 1.21.11, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your server's loader.
 
 The Fabric version does not need Fabric API.
 

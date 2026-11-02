@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 import org.spongepowered.asm.mixin.injection.Slice;
 
-@Mixin(targets = "net.minecraft.world.entity.animal.Fox$FoxBreedGoal")
+@Mixin(targets = "net.minecraft.world.entity.animal.fox.Fox$FoxBreedGoal")
 public abstract class FoxBreedGoalMixin {
     @ModifyConstant(
             method = "breed",
