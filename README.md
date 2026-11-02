@@ -11,7 +11,7 @@ Available for NeoForge, Forge and Fabric.
 ## Features
 
 - **No cooldown for parents.** After breeding, both parents can be fed their breeding food again straight away instead of waiting five minutes.
-- **Grown-up babies breed at once.** A baby animal that you feed until it grows up can be bred as soon as it is an adult, without the extra wait vanilla adds for babies grown up with food.
+- **Grown-up babies breed at once.** A baby animal that grows up, naturally or with food, can be bred as soon as it is an adult. Any leftover waiting time stored on the animal is discarded.
 - **Every animal.** Works for all animals that breed the vanilla way, including foxes, turtles, frogs, sniffers, armadillos, horses, llamas, camels and bees.
 - **Villagers stay vanilla.** Villager breeding and its cooldown are not touched.
 
@@ -22,7 +22,7 @@ There is no config file.
 What changes:
 
 - When two animals breed, vanilla gives both parents a five-minute cooldown before they can fall in love again. With the mod, they can be fed again right after breeding.
-- When you feed a baby animal until it grows up, vanilla makes the new adult wait as long as the growing time the food skipped before it can breed. With the mod, it can be bred right away.
+- When a baby animal grows up, naturally or with food, it can be bred right away. Any leftover waiting time stored on the animal is discarded.
 
 What stays vanilla:
 
