@@ -2,7 +2,8 @@
   "required": true,
   "minVersion": "0.8",
   "package": "io.github.emberbocor.instantbreeding.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "refmap": "instantbreeding.refmap.json",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
     "AgeableMobMixin",
     "AnimalMixin",

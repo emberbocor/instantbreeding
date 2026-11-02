@@ -22,6 +22,5 @@ plugins {
 
 rootProject.name = 'instantbreeding'
 include('common')
-include('neoforge')
 include('fabric')
 include('forge')

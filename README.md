@@ -12,7 +12,7 @@ Available for NeoForge, Forge and Fabric.
 
 - **No cooldown for parents.** After breeding, both parents can be fed their breeding food again straight away instead of waiting five minutes.
 - **Grown-up babies breed at once.** A baby animal that grows up, naturally or with food, can be bred as soon as it is an adult. Any leftover waiting time stored on the animal is discarded.
-- **Every animal.** Works for all animals that breed the vanilla way, including foxes, turtles, frogs, sniffers, armadillos, horses, llamas, camels and bees.
+- **Every animal.** Works for all animals that breed the vanilla way, including foxes, turtles, frogs, sniffers, horses, llamas, camels and bees.
 - **Villagers stay vanilla.** Villager breeding and its cooldown are not touched.
 
 There is no config file.
@@ -35,13 +35,13 @@ What stays vanilla:
 
 ## Requirements
 
-| | NeoForge | Forge | Fabric |
-|---|---|---|---|
-| Minecraft | 1.21.1 | 1.21.1 | 1.21 or 1.21.1 |
-| Loader | NeoForge 21.1.1 or newer | Forge 52.0.0 or newer | Fabric Loader 0.15.10 or newer |
-| Jar | `instantbreeding-neoforge-1.21.1-<version>.jar` | `instantbreeding-forge-1.21.1-<version>.jar` | `instantbreeding-fabric-1.21-1.21.1-<version>.jar` |
+| | Forge / NeoForge | Fabric |
+|---|---|---|
+| Minecraft | 1.20.1 | 1.20 or 1.20.1 |
+| Loader | Forge 47.1.0 or newer, or NeoForge 1.20.1 (47.1.x) | Fabric Loader 0.14.21 or newer |
+| Jar | `instantbreeding-forge-1.20.1-<version>.jar` | `instantbreeding-fabric-1.20-1.20.1-<version>.jar` |
 
-On Minecraft 1.21.1, NeoForge and Forge are separate loaders that do not run each other's mods, so each has its own jar. Pick the jar that matches your server's loader.
+On Minecraft 1.20.1, NeoForge still runs Forge mods, so the Forge jar is used for both.
 
 The Fabric version does not need Fabric API.
 
@@ -49,8 +49,7 @@ The Fabric version does not need Fabric API.
 
 Install the mod on the server only, on every loader. It adds no items, blocks, entities, sounds, network messages or registries, so the server has nothing a client needs to know about:
 
-- **NeoForge:** vanilla clients and NeoForge clients without the mod can join.
-- **Forge:** vanilla clients and Forge clients without the mod can join. The mod is marked as server-only, so a Forge client without it still shows the server as compatible in the server list.
+- **Forge and NeoForge:** vanilla clients and Forge or NeoForge clients without the mod can join. The mod is marked as server-only, so a client without it still shows the server as compatible in the server list.
 - **Fabric:** vanilla clients and Fabric clients without the mod can join.
 
 Players without the mod see the hearts, the babies and the experience orbs like everyone else. Installing it on a client as well does no harm.
@@ -74,7 +73,7 @@ The world opens normally. The mod saves nothing of its own. Animals keep their c
 ./gradlew build
 ```
 
-The jars are written to `neoforge/build/libs/`, `forge/build/libs/` and `fabric/build/libs/`.
+The jars are written to `forge/build/libs/` and `fabric/build/libs/`.
 
 ## License
 
