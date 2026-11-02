@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "Animals can be bred again right away: no breeding cooldown for the parents, and babies grown up with food can breed at once. Only needed on the server.",
+  "authors": [
+    "emberbocor"
+  ],
+  "contact": {
+    "homepage": "https://github.com/emberbocor/instantbreeding",
+    "sources": "https://github.com/emberbocor/instantbreeding",
+    "issues": "https://github.com/emberbocor/instantbreeding/issues"
+  },
+  "license": "${mod_license}",
+  "environment": "*",
+  "mixins": [
+    "${mod_id}.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "${fabric_loader_version_range}",
+    "minecraft": "${fabric_minecraft_version_range}",
+    "java": ">=21"
+  }
+}
